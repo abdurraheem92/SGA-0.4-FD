@@ -1,0 +1,108 @@
+body{
+    background-color: grey;
+    background: url("bingbg.jpg") center no-repeat;
+    background-attachment: fixed;
+    background-size: cover;
+  }
+  nav{
+    color: white;
+    margin-left: 50px;
+  }
+  nav > a{
+    padding: 20px;
+    text-decoration: none;
+    color: white;
+    font-size: 13px;
+    opacity: 0.7;
+    font-family: 'Montserrat', sans-serif;
+  }
+  nav > a:hover{
+    opacity: 1;
+  }
+  
+  .nav-right > a{
+    position: relative;
+    left: 300px;
+    padding: 20px;
+    text-decoration: none;
+    color: white;
+    font-size: 13px;
+    opacity: 0.7;
+    font-family: 'Montserrat', sans-serif;
+  }
+  
+  .nav-right > a:hover{
+    opacity: 1;
+  }
+  
+  .contents{
+    margin: 70px 0px 0 100px;
+    top: 190px;
+    left: 170px;
+  }
+  .contents > form{
+    display: inline;
+  }
+  input[type="text"]{
+    width: 50%;
+    height: 50px;
+    padding-left: 10px;
+    margin-left: 10px;
+  }
+  input[type="button"]{
+    margin-left: -70px;
+    border: 0;
+    background-color: transparent;
+  }
+  .icon{
+    height: 35px;
+    position: relative;
+    top: 12px;
+    padding-right: 8px;
+
+
+  }
+  .bing{
+    font-size: 35px;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif
+  ;
+    color: white;
+    margin-left: 40px;
+    
+  }
+
+  .ico{
+    height: 50px;
+    position: relative;
+    top: 12px;
+    padding-left: 8px;
+
+  }
+  
+  .contents > img{
+    position: absolute;
+    top: 100px;
+    left: 129px;
+  }
+  footer{
+    position: absolute;
+    top: 100%;
+    height: 40px;
+    background-color: #333333;
+    width: 100%;
+    left:0;
+  }
+  
+  footer>a{
+    padding: 20px;
+    font-size: 14px;
+    color: white;
+    text-decoration: none;
+    opacity: 0.5;
+    font-family: 'Montserrat', sans-serif;
+  }
+  
+  footer>a:hover{
+    opacity: 0.8;
+    text-decoration: underline;
+  }
